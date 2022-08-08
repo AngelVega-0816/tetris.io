@@ -1,0 +1,31 @@
+.Preview {
+  /* position: absolute;
+  top: 0; */
+  /* left: 72.2vw; */
+  /* right: 0; */
+  background: rgba(0, 0, 0, 0.1);
+  border: 10px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column; */
+
+
+  --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .20em solid var(--glow-color);
+ box-shadow: 0 0 .7em .17em var(--glow-color),
+ inset 0 0 .525em .175em var(--glow-color);
+ margin-bottom: 10px;
+ /* 0 0 2.8em .7em var(--glow-spread-color), */
+}
+
+.PreviewBoard {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 11vh;
+  height: 11vh;
+}

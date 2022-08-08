@@ -1,0 +1,35 @@
+.Finish {
+  /* position: absolute; */
+  height: 600px;
+  width: 500px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  justify-content: space-around;
+}
+.containStats {
+  /* height: 100%; */
+  /* width: 100%; */
+  /* background-color: red; */
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: auto; */
+}
+.Finish h3 {
+  --glow-color: rgb(217, 176, 255);
+	text-shadow: 0 0 0.5em var(--glow-color);
+  color: var(--glow-color);
+	font-size: 35px;
+	font-weight: bold;
+	margin: 0;
+  margin-bottom: 5px;
+}
+.divisor {
+  height: 40%;
+  width: 1px;
+  margin: auto 0px;
+}

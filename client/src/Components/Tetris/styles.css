@@ -1,0 +1,16 @@
+.Tetris {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.player {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.stats {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}

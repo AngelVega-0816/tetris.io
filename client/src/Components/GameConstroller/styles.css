@@ -1,0 +1,13 @@
+.GameController {
+  position: absolute;
+  /* top: -100em; */
+  top: -2px;
+  left: -2px;
+  height: 102vh;
+  width: 102vw;
+  background-color: transparent;
+  border: none;
+}
+.GameController:focus {
+  border: none;
+}

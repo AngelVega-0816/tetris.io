@@ -1,0 +1,20 @@
+.CodeRoom {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* left: 50%; */
+  /* margin: auto; */
+}
+.CodeRoom h5 {
+  /* color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0; */
+  --glow-color: rgb(217, 176, 255);
+	border-bottom: 2px solid var(--glow-color);
+  color: var(--glow-color);
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 0 0 0.5em var(--glow-color);
+  margin: 0;
+}
